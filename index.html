@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appliance Repair Oxford AL | Fast Reliable Service | Alabama Appliance Repair</title>
+    <meta name="description" content="Alabama Appliance Repair delivers professional appliance repair in Oxford AL. Fix refrigerators, washers, dryers fast. Licensed techs, 1-year warranty, same-day service. Call (256) 555-0123 for free estimate.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            color: #1e3a8a;
+            margin: 3rem 0 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #3b82f6;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            color: #2563eb;
+            margin: 2rem 0 1rem;
+        }
+        
+        .intro {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .benefits {
+            background: #eff6ff;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .benefits ul {
+            list-style: none;
+            margin: 1rem 0;
+        }
+        
+        .benefits li {
+            padding: 0.75rem 0;
+            padding-left: 2rem;
+            position: relative;
+        }
+        
+        .benefits li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #3b82f6;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #dc2626;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 1rem 0;
+            transition: background 0.3s;
+        }
+        
+        .cta-button:hover {
+            background: #b91c1c;
+        }
+        
+        .phone {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fbbf24;
+        }
+        
+        .signs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .sign-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-top: 4px solid #3b82f6;
+        }
+        
+        .process-steps {
+            counter-reset: step-counter;
+            margin: 2rem 0;
+        }
+        
+        .process-step {
+            background: white;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            counter-increment: step-counter;
+            position: relative;
+            padding-left: 5rem;
+        }
+        
+        .process-step:before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #3b82f6;
+            color: white;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .brand-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .brand-name {
+            font-weight: bold;
+            color: #1e3a8a;
+            margin-bottom: 0.5rem;
+        }
+        
+        .faq-item {
+            background: white;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            color: #1e3a8a;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .service-areas {
+            background: #eff6ff;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        
+        .cities-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .city-tag {
+            background: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            border: 1px solid #3b82f6;
+            color: #1e3a8a;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+        
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .contact-method {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+        
+        .contact-method h4 {
+            margin-bottom: 0.5rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        th {
+            background: #3b82f6;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        footer {
+            background: #1f2937;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        
+        .testimonial {
+            background: #fef3c7;
+            padding: 1rem;
+            border-left: 4px solid #fbbf24;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .process-step {
+                padding-left: 4rem;
+            }
+            
+            .phone {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Appliance Repair Oxford AL | Fast Reliable Service</h1>
+            <p style="font-size: 1.2rem; margin-top: 0.5rem;">Alabama Appliance Repair</p>
+            <p class="phone">📞 (256) 555-0123</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <p>Appliance repair is the diagnosis and correction of malfunctions in household appliances like refrigerators, washers, and ovens. Alabama Appliance Repair provides professional appliance repair to homeowners in Oxford, Alabama, and surrounding areas. Our licensed technicians use OEM parts and diagnostic tools to restore appliances to full function. We handle residential appliance repair for common brands with precision.</p>
+        </section>
+
+        <div class="benefits">
+            <h2>5 Key Benefits of Our Appliance Repair</h2>
+            <ul>
+                <li><strong>Fast Diagnosis:</strong> Technicians pinpoint issues like compressor failure in under 30 minutes.</li>
+                <li><strong>OEM Parts:</strong> We stock genuine parts for washers, dryers, and refrigerators.</li>
+                <li><strong>1-Year Warranty:</strong> Every appliance repair comes with a full-year guarantee.</li>
+                <li><strong>Same-Day Service:</strong> Most Oxford calls receive service within hours.</li>
+                <li><strong>Transparent Pricing:</strong> Free upfront estimates with no hidden fees.</li>
+            </ul>
+            <a href="tel:2565550123" class="cta-button">Call (256) 555-0123 to Schedule Now</a>
+        </div>
+
+        <section>
+            <h2>Why Choose Alabama Appliance Repair for Appliance Repair</h2>
+            <p>Alabama Appliance Repair stands out in appliance repair through certified expertise and rapid response. We employ NATE-certified technicians with 15+ years in appliance repair. Our fleet covers Oxford and Calhoun County daily.</p>
+            
+            <div class="benefits" style="margin-top: 1.5rem;">
+                <h3>Our Appliance Repair Difference</h3>
+                <ul>
+                    <li><strong>Licensed Technicians:</strong> State-licensed pros handle refrigerator repair, oven repair, and more safely.</li>
+                    <li><strong>OEM Parts Inventory:</strong> We carry Whirlpool, GE, and Samsung parts to cut wait times.</li>
+                    <li><strong>24/7 Emergency Availability:</strong> Respond to failed freezers or leaking dishwashers anytime.</li>
+                    <li><strong>100% Satisfaction Guarantee:</strong> Rework any appliance repair free if issues recur.</li>
+                </ul>
+            </div>
+            
+            <p>We maintain full insurance and bonding for every job.</p>
+            
+            <div class="testimonial">
+                "Fixed our dryer belt in 2 hours. Best appliance repair ever." - Oxford Resident
+            </div>
+            
+            <a href="tel:2565550123" class="cta-button">Schedule Professional Appliance Repair Today</a>
+        </section>
+
+        <section>
+            <h2>Signs You Need Appliance Repair</h2>
+            <p>Appliance repair becomes necessary when performance drops signal internal failures. Alabama Appliance Repair technicians spot these signs during initial inspections.</p>
+            
+            <div class="signs-grid">
+                <div class="sign-card">
+                    <h3>Refrigerator Not Cooling</h3>
+                    <p>Refrigerator not cooling points to compressor strain or evaporator coil frost. Dirty condenser coils block airflow, raising temperatures above 40°F. Low refrigerant from leaks causes uneven cooling. Ignore this, and food spoils while energy bills spike 30%.</p>
+                </div>
+                
+                <div class="sign-card">
+                    <h3>Washer Won't Drain</h3>
+                    <p>Washer won't drain indicates pump clogs or failed drain hose. Lint, socks, or debris jam the impeller. Water remains in the tub, halting cycles. This leads to mold growth and motor overload.</p>
+                </div>
+                
+                <div class="sign-card">
+                    <h3>Dryer Makes Loud Noises</h3>
+                    <p>Dryer noises like thumping signal worn drum rollers or loose belts. Rollers seize after 5-8 years of use. Belts fray from heat exposure. Continued runs damage the blower wheel.</p>
+                </div>
+                
+                <div class="sign-card">
+                    <h3>Oven Won't Heat Evenly</h3>
+                    <p>Oven won't heat evenly stems from faulty bake elements or igniter issues. Elements crack after 3-5 years. Weak igniters fail to open gas valves fully. Uneven baking ruins meals.</p>
+                </div>
+                
+                <div class="sign-card">
+                    <h3>Dishwasher Leaks Water</h3>
+                    <p>Dishwasher leaks trace to door seal gaps or pump gasket wear. Seals harden over time. Overflow sensors trip if unaddressed. Water damages floors and cabinets.</p>
+                </div>
+            </div>
+            
+            <p style="text-align: center; margin-top: 2rem; font-size: 1.2rem;"><strong>Notice these in your home? Act now.</strong></p>
+            <div style="text-align: center;">
+                <a href="tel:2565550123" class="cta-button">Contact Us for Urgent Appliance Repair</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Our Appliance Repair Process</h2>
+            <p>Appliance repair at Alabama Appliance Repair follows a proven 5-step method.</p>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <h3>Schedule and Arrive</h3>
+                    <p>We dispatch technicians to your Oxford address within hours. They carry diagnostic scanners and tools for on-site assessment.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Diagnose the Fault</h3>
+                    <p>Technicians test components like thermostats, motors, and compressors with multimeters. Scanners read error codes from control boards. This identifies exact issues like defrost timer failures.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Source and Install Parts</h3>
+                    <p>We install OEM parts such as heating elements, belts, or valves from our van stock. Technicians secure connections and reassemble units.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Test Full Operation</h3>
+                    <p>We run multiple cycles to verify functions like spin speeds or temperature holds. Leaks, noises, or codes trigger rechecks.</p>
+                </div>
+                
+                <div class="process-step">
+                    <h3>Cleanup and Review</h3>
+                    <p>Technicians wipe surfaces and explain the fix. You receive a report with part details and warranty info.</p>
+                </div>
+            </div>
+            
+            <p><strong>Most appliance repairs complete in 1-3 hours.</strong></p>
+            <a href="tel:2565550123" class="cta-button">Book Your Slot Today</a>
+        </section>
+
+        <section>
+            <h2>Top Brands We Use for Appliance Repair</h2>
+            <p>Appliance repair quality hinges on genuine parts and tools. Alabama Appliance Repair stocks parts from leading brands.</p>
+            
+            <div class="brands-grid">
+                <div class="brand-item">
+                    <div class="brand-name">Whirlpool</div>
+                    <p>Refrigerator compressors and washer pumps for reliable cooling.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">GE</div>
+                    <p>Oven igniters and dryer thermostats for precise heating.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">Samsung</div>
+                    <p>Dishwasher control boards and ice maker modules.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">LG</div>
+                    <p>Washer motors and dryer belts for quiet operation.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">Maytag</div>
+                    <p>Commercial-grade oven elements and freezer evaporators.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">Kenmore</div>
+                    <p>Range timers and dishwasher seals for longevity.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">Frigidaire</div>
+                    <p>Refrigerator defrost heaters and stove valves.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">Bosch</div>
+                    <p>High-efficiency washer impellers and dryer sensors.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">Electrolux</div>
+                    <p>Front-load dryer drums and oven door switches.</p>
+                </div>
+                
+                <div class="brand-item">
+                    <div class="brand-name">KitchenAid</div>
+                    <p>Mixer motors and range control panels.</p>
+                </div>
+            </div>
+            
+            <div class="benefits">
+                <p><strong>Safety Commitment:</strong> We follow EPA refrigerant handling guidelines. Technicians wear PPE and protect floors with drop cloths during every appliance repair.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Appliance Repair Keyword Reference</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Primary Keywords</th>
+                        <th>Alternative Keywords</th>
+                        <th>LSI Keywords</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>appliance repair</td>
+                        <td>fixing appliances</td>
+                        <td>refrigerator repair</td>
+                    </tr>
+                    <tr>
+                        <td>appliance repair Oxford AL</td>
+                        <td>appliance fixes</td>
+                        <td>washer repair</td>
+                    </tr>
+                    <tr>
+                        <td>professional appliance repair</td>
+                        <td>home appliance service</td>
+                        <td>dryer repair</td>
+                    </tr>
+                    <tr>
+                        <td>appliance repair services</td>
+                        <td>appliance maintenance</td>
+                        <td>oven repair</td>
+                    </tr>
+                    <tr>
+                        <td>emergency appliance repair</td>
+                        <td>local appliance techs</td>
+                        <td>dishwasher repair</td>
+                    </tr>
+                    <tr>
+                        <td>affordable appliance repair</td>
+                        <td>same day appliance repair</td>
+                        <td>compressor failure</td>
+                    </tr>
+                    <tr>
+                        <td>appliance repair cost</td>
+                        <td>reliable appliance fixes</td>
+                        <td>heating element</td>
+                    </tr>
+                    <tr>
+                        <td>appliance repair near me</td>
+                        <td>expert appliance service</td>
+                        <td>thermostat malfunction</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions About Appliance Repair</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">What is appliance repair?</div>
+                <p>Appliance repair is diagnosing and fixing faults in refrigerators, washers, dryers, ovens, and dishwashers. Technicians replace parts like motors or seals. Full function returns quickly.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">When do I need appliance repair?</div>
+                <p>Schedule appliance repair for no cooling, leaks, noises, or cycle failures. Act within 24 hours of symptoms. Delays cause bigger breakdowns.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Why choose professional appliance repair?</div>
+                <p>Professional appliance repair uses diagnostic tools and OEM parts. DIY risks shocks or voided warranties. We guarantee results with certified techs.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How does appliance repair work?</div>
+                <p>Technicians diagnose with scanners, replace faulty parts like belts or igniters, test cycles, and cleanup. You observe the process.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How much does appliance repair cost?</div>
+                <p>Appliance repair costs $150-$400 based on parts, labor, and model. Refrigerators average $250. Alabama Appliance Repair offers free estimates.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How long does appliance repair take?</div>
+                <p>Appliance repair takes 1-3 hours. Complex jobs like compressor swaps need 4 hours. Same-day fixes common in Oxford.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can appliance repair solve compressor issues?</div>
+                <p>Yes. We recharge or replace compressors in refrigerators. This restores cooling if seals hold.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Does appliance repair come with a warranty?</div>
+                <p>Yes. 1-year parts and labor warranty covers all appliance repairs.</p>
+            </div>
+        </section>
+
+        <section class="service-areas">
+            <h2>Service Areas for Appliance Repair</h2>
+            <p>Alabama Appliance Repair serves Oxford, Alabama, and nearby regions.</p>
+            
+            <h3>Cities We Serve:</h3>
+            <div class="cities-list">
+                <span class="city-tag">Oxford</span>
+                <span class="city-tag">Anniston</span>
+                <span class="city-tag">Talladega</span>
+                <span class="city-tag">Jacksonville</span>
+                <span class="city-tag">Weaver</span>
+                <span class="city-tag">Hobson City</span>
+                <span class="city-tag">Blue Mountain</span>
+                <span class="city-tag">Alexandria</span>
+                <span class="city-tag">Ohatchee</span>
+                <span class="city-tag">Choccolocco</span>
+            </div>
+            
+            <h3>Neighborhoods in Oxford:</h3>
+            <div class="cities-list">
+                <span class="city-tag">Lakeside Village</span>
+                <span class="city-tag">Old Town</span>
+                <span class="city-tag">Deerfield</span>
+                <span class="city-tag">Indian Oaks</span>
+                <span class="city-tag">Woodland Park</span>
+            </div>
+            
+            <p style="margin-top: 1rem;"><strong>Service Radius:</strong> 25 miles from Oxford</p>
+            
+            <h3 style="margin-top: 1.5rem;">Response Times:</h3>
+            <ul style="list-style: none; margin-top: 0.5rem;">
+                <li>✓ Oxford: Same day</li>
+                <li>✓ Anniston: Same day</li>
+                <li>✓ Talladega: Next day</li>
+                <li>✓ Extended: Within 48 hours</li>
+            </ul>
+            
+            <div style="text-align: center; margin-top: 1.5rem;">
+                <a href="tel:2565550123" class="cta-button">Call (256) 555-0123 for Appliance Repair in Your Area</a>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2 style="color: white; border: none;">Schedule Your Appliance Repair Today</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">Appliance repair from Alabama Appliance Repair starts with a free diagnostic.</p>
+            
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <h4>📞 Call</h4>
+                    <p><a href="tel:2565550123" style="color: white; text-decoration: none; font-weight: bold;">(256) 555-0123</a></p>
+                    <p>24/7 Available</p>
+                </div>
+                
+                <div class="contact-method">
+                    <h4>💬 Text</h4>
+                    <p><a href="sms:2565550123" style="color: white; text-decoration: none; font-weight: bold;">(256) 555-0123</a></p>
+                    <p>Reply in 15 minutes</p>
+                </div>
+                
+                <div class="contact-method">
+                    <h4>🌐 Online</h4>
+                    <p>Book via our site form</p>
+                </div>
+                
+                <div class="contact-method">
+                    <h4>📧 Email</h4>
+                    <p><a href="mailto:service@alabamaappliancerepair.com" style="color: white; text-decoration: none;">service@alabamaappliancerepair.com</a></p>
+                </div>
+            </div>
+            
+            <div style="margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
+                <h3 style="color: white; margin: 0 0 1rem 0;">What to Expect:</h3>
+                <p>Quick phone triage • Flexible appointment • On-time arrival with estimate</p>
+                <p style="margin-top: 1rem;"><strong>Our Guarantee:</strong> 1-year warranty on every repair</p>
+            </div>
+            
+            <a href="tel:2565550123" class="cta-button" style="margin-top: 2rem; background: white; color: #1e3a8a;">Call (256) 555-0123 Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alabama Appliance Repair. All rights reserved.</p>
+            <p style="margin-top: 0.5rem;">Licensed • Insured • Bonded</p>
+            <p style="margin-top: 1rem;">Serving Oxford, AL and surrounding areas with professional appliance repair services</p>
+        </div>
+    </footer>
+</body>
+</html>
